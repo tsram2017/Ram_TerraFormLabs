@@ -7,7 +7,7 @@ provider "Google" {
 
 resource "google_compute_instance" "FirstVM" {
 name = "Test" 
-zone = "Asia_South1"
+zone = "Asia_South2::"
 
 }
 
